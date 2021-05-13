@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cnvblog?serverTimezone=Asia/Shanghai
+    username: root
+    password: 2472500609cn#
+  redis:
+    host: 49.235.200.38
+    port: 6379
+    password: 2472500609cn#
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+server:
+  port: 8086
+cncodehub:
+  jwt:
+    secret: f4e2e52034348f86b67cde581c0f9eb5 #密钥
+    expire: 604800 #token有效时长,7天,单位是秒
+    header: Authorization
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: 49.235.200.38:6379
+    password: 2472500609cn#
