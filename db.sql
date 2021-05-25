@@ -35,4 +35,12 @@ CREATE TABLE `m_user` (
   KEY `UK_USERNAME` (`username`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-
+INSERT INTO `m_user` VALUES (
+'1',
+ 'cnCodeHub',
+ 'https://avatars.githubusercontent.com/u/50296273?s=400&u=dcc5b0189fafecc5654d904bf6af2ba92e6af767&v=4',
+ null,
+ '96e79218965eb72c92a549dd5a330112', 
+ '0',
+ '2020-05-20 11:22:01', 
+ null);
