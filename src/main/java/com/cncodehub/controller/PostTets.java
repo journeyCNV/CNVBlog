@@ -15,18 +15,5 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.support.AbstractApplicationContext;
 
 public class PostTets {
-    //BeanPostProcessor
-    //ApplicationContext
-    //ApplicationContext
-    //ApplicationContext
-    //BeanFactory
-    //AbstractApplicationContext
-    //AnnotationConfigApplicationContext
-    //ListableBeanFactory
-    //AnnotatedBeanDefinition
-    //BeanNameAware
-    //InitializingBean
-    //AbstractAutowireCapableBeanFactory
-    //@Value()
-    //hhhh
+   
 }
