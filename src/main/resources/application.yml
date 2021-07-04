@@ -11,7 +11,7 @@ spring:
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
 server:
-  port: 8086
+  port: 8083
 cncodehub:
   jwt:
     secret: f4e2e52034348f86b67cde581c0f9eb5 #密钥
